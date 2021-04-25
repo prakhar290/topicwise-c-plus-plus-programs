@@ -9,7 +9,6 @@ int main()
     {
         if(i%2==0)
         continue;
-        else
         cout<<i<<" ";
     }
     //continue statement is used to leave a step and go ahead for the furthur execution of loop
