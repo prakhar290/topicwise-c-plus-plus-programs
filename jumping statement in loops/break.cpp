@@ -9,7 +9,6 @@ int main()
     {
         if(i==6)
         break;
-        else
         cout<<i<<" ";
     }
     cout<<"\nthe number stops printing after 6 because we have used break statement in the loop.";
