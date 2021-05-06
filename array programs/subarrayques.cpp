@@ -25,12 +25,11 @@ int main()
             sum = sum + a[j];
             if(sum==s)
             {
-                break;
+                cout<<i+1<<" "<<j+1;
+                return 0;
             }
         }
-        if(sum==s)
-        break;
     }
-    cout<<i+1<<" "<<j+1;
+    
     return 0;
 }
