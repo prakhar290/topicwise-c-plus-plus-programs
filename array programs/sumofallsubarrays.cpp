@@ -1,5 +1,5 @@
 //ques- given an array of size n. output will be the sum of each subarray of the given array. 
-//      where subaaray is the continous part of an array.
+//      where subarray is the continous part of an array.
 #include<iostream>
 using namespace std;
 int main()
@@ -44,7 +44,7 @@ int main()
         }
         cout<<endl;
     }
-    cout<<"the array with highest sum is: ";
+    cout<<"the subarray with highest sum is: ";
     for(i=st;i<=ed;i++)
     {
         cout<<a[i]<<" ";
