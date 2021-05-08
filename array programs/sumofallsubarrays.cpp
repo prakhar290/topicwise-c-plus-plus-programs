@@ -23,5 +23,31 @@ int main()
         }
         cout<<endl;
     }
+        // second ques is : find the subarray with maximum sum
+    //the logic for this code is similar to above until taking input after that the logic is given below:-
+    cout<<"answer of next question:-";
+    int maxsum = 0;
+    int st=0,ed=0;
+    for(i=0;i<n;i++)
+    {
+        int sum=0;
+        for(j=i;j<n;j++)
+        {
+            sum = sum + a[j];
+            if(sum>maxsum)
+            {
+                maxsum = sum;
+                st=i;
+                ed=j;
+            }
+            
+        }
+        cout<<endl;
+    }
+    cout<<"the array with highest sum is: ";
+    for(i=st;i<=ed;i++)
+    {
+        cout<<a[i]<<" ";
+    }
     return 0;
 }
