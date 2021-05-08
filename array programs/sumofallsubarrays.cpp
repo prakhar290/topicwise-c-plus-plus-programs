@@ -25,6 +25,7 @@ int main()
     }
         // second ques is : find the subarray with maximum sum
     //the logic for this code is similar to above until taking input after that the logic is given below:-
+    // to solve this problem we use cummulative sum approach.
     cout<<"answer of next question:-";
     int maxsum = INT_MAX;
     int st=0,ed=0;
