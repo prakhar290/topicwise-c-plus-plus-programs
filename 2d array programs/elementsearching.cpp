@@ -15,6 +15,7 @@ int main()
         }
     }
     int element;
+    bool flag=false;
     cout<<"enetr the element to find its location: ";
     cin>>element;
     for(i=0;i<rows;i++)
@@ -23,10 +24,12 @@ int main()
         {
             if(array[i][j]==element)
             {
+                flag = true;
                 cout<<"element found at position "<<i+1<<" row and "<<j+1<<" column.";
-                return 0;
             }
         }
     }
+    if(flag==false)
+    cout<<"element not found";
     return 0;
 }
