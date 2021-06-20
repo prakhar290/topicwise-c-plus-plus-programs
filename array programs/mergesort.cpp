@@ -11,7 +11,7 @@ void merge(int a[],int beg,int mid,int end)
     int i,j,l,r,k=0;
     l = mid+1;
     r = end-mid;
-    int larr[l],rarr[r];
+    int larr[l],rarr[r]; //temporary arrays to merge the parts of array to get sorted complete array
     for(i=0;i<l;i++)
     {
         larr[i]=a[i];
@@ -59,7 +59,7 @@ void dividearray(int a[],int beg,int end)
 {
     if(beg==end)
     {
-        return;
+        return; // base condition
     }
     int mid = (beg+end)/2;
     dividearray(a,beg,mid);
