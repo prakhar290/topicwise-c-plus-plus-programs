@@ -8,10 +8,11 @@ int main()
     array2[1]=2;
     array2[2]=3;
     //now if we want to get initialization from user we use looping.
+    
+    int array3[100];
     int size;
     cout<<"enter the size of array you want: ";
     cin>>size;
-    int array3[size];
     cout<<"enetr the elements of array: ";
     for(int i=0;i<size;i++)
     {
