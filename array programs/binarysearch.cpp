@@ -25,10 +25,11 @@ int binarysearch(int arr[],int ele,int n)
 }
 int main()
 {
+    
+    int a[100];
     int size,i,element;
     cout<<"enter the size of array: ";
     cin>>size;
-    int a[size];
     cout<<"enter elements of array in sorted manner: ";
     for(i=0;i<size;i++)
     {
