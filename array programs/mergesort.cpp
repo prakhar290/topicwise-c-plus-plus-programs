@@ -68,10 +68,11 @@ void dividearray(int a[],int beg,int end)
 }
 int main()
 {
+    
+    int a[100];
     int n,i;
     cout<<"enter the size of array: ";
     cin>>n;
-    int a[n];
     cout<<"enter the elements of array: ";
     for(i=0;i<n;i++)
     {
