@@ -5,12 +5,11 @@
 using namespace std;
 int main()
 {
+    int a[100];
     int n,i,j,sm=0;
     cout<<"enter the size of array: ";
     cin>>n;
     cout<<"enter the elements: ";
-    int a[n];
-    
     for(i=0;i<n;i++)
     {
         cin>>a[i];
