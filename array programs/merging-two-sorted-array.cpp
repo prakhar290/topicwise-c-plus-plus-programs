@@ -47,10 +47,11 @@ void merge(int a[],int b[],int n1,int n2)
 }
 int main()
 {
+    
+    int a[100],b[100];
     int n1,n2,i;
     cout<<"enter the size of first array: ";
     cin>>n1;
-    int a[n1];
     cout<<"enter the elements of first array: ";
     for(i=0;i<n1;i++)
     {
@@ -58,7 +59,6 @@ int main()
     }
     cout<<"enter the size of second array: ";
     cin>>n2;
-    int b[n2];
     cout<<"enter the elements of second array: ";
     for(i=0;i<n2;i++)
     {
