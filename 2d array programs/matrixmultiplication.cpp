@@ -2,10 +2,11 @@
 using namespace std;
 int main()
 {
+    
+    int array[100][100];
     int r1,r2,c1,c2,i,j;
     cout<<"enter the size of first matrix (row size first and then col size): ";
     cin>>r1>>c1;
-    int array[r1][c1];
     cout<<"enter the elements of your matrix: ";
     for(i=0;i<r1;i++)
     {
@@ -23,9 +24,9 @@ int main()
         }
         cout<<endl;
     }
+    int b[100][100];
     cout<<"enter the size of second matrix (row size first and then col size): ";
     cin>>r2>>c2;
-    int b[r2][c2];
     cout<<"enter the elements of your matrix: ";
     for(i=0;i<r2;i++)
     {
@@ -43,7 +44,7 @@ int main()
         }
         cout<<endl;
     }
-    int c[r1][c2];
+    int c[100][100];
     if(c1==r2)
     {
         for(i=0;i<r1;i++)
