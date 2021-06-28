@@ -2,10 +2,10 @@
 using namespace std;
 int main()
 {
+    int array[100][100];
     int rows,cols,i,j;
     cout<<"enter the size of 2d array (row size first and then col size): ";
     cin>>rows>>cols;
-    int array[rows][cols];
     cout<<"enter the elements of your 2d array: ";
     for(i=0;i<rows;i++)
     {
