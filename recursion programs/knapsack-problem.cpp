@@ -18,10 +18,10 @@ int main()
 {
     
     int wt[100];
+    int value[100];
     int n;
     cout<<"enter the number of items: ";
     cin>>n;
-    int value[n];
     cout<<"enter the weight of each item:\n";
     for(int i=0;i<n;i++)
     {
