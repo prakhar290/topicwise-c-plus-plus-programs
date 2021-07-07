@@ -38,7 +38,7 @@ int main()
     int n;
     cout<<"enter the size of array: ";
     cin>>n;
-    cout<<"\n enter the elements of array from (0,1,2): ";
+    cout<<"enter the elements of array from (0,1,2): ";
     for(int i=0;i<n;i++)
     {
         cin>>a[i];
