@@ -1,7 +1,13 @@
+/* to convert a infix expression into prefix we follow the same procedure as of converting an expression into postfix. but before
+that we will first reverse the given string to follow the algorithm. 
+1. if we found an operand then we store it in our answer string.
+2. if a closing bracket ')' is found then push it to the stack
+3. if a opening bracket '(' is found then store the element and then pop it till the closing bracket is found and pop it also
+4. if an operator is found then store the element and pop it till the operator with less precedence is found and push it
+5. in the end reverse the resultant string and give the output*/
+
 #include<iostream>
 #include<stack>
-#include<math.h>
-#include<string>
 #include<vector>
 #include<algorithm>
 using namespace std;
