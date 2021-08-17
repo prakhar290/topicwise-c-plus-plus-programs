@@ -33,15 +33,30 @@ vector<string> print(int maxsize,int count,string word,int row,int colcount)
 {
     int i=0;
     vector<string> s;
-    while(i<maxsize-count)
+    if(count%2==0)
     {
-        s.push_back(" ");
-        i++;
+        for(int j=0;j<maxsize;j++)
+        {
+            if(j<count)
+            s.push_back(word);
+            else
+            s.push_back(" ");
+        }
+        return s;
+    }
+    if(count%2!=0)
+    {
+        while(i<maxsize-count)
+        {
+            s.push_back(" ");
+            i++;
+        }
     }
     for(int j=i;j<maxsize;j++)
     {
         s.push_back(word);
     }
+    
     return s;
 }
 int main()
@@ -67,8 +82,6 @@ int main()
         maxsize = max(maxsize,num); 
         }
     }
-    cout<<colcount;
-    string a[colcount][maxsize];
     vector<vector<string>> pat;
     int row=0;
     for(int i=0;i<s.size();)
@@ -79,7 +92,6 @@ int main()
             word += s[i];
             i++;
         }
-        cout<<word<<" ";
         string size="";
         while(s[i]>='0' && s[i]<='9')
         {
@@ -87,7 +99,6 @@ int main()
             i++;
         }
         int count = stoi(size);
-        cout<<"count: "<<count<<endl;
         pat.push_back(print(maxsize,count,word,row,colcount));
         
     }
@@ -99,20 +110,12 @@ int main()
         }
         cout<<endl;
     }
-    vector<vector<string>> tran;
-    for(int i=0;i<pat.size();i++)
-    {
-        for(int j=0;j<pat[i].size();j++)
-        {
-            tran[j][i] = pat[i][j];
-        }
-    }
     cout<<"another way printing:"<<endl;
-    for(int i=0;i<tran.size();i++)
+    for(int i=0;i<pat[0].size();i++)
     {
-        for(int j=0;j<tran[i].size();j++)
+        for(int j=0;j<pat.size();j++)
         {
-            cout<<tran[i][j]<<" ";
+            cout<<pat[j][i]<<"  ";
         }
         cout<<endl;
     }
