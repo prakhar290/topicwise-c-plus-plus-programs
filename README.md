@@ -5,3 +5,7 @@ you'll get programs accordingly to the topics as: *creating hello world program,
 
  
 ***Stay connected for more***
+
+- Printing *"Hello World"*
+- Using Variables
+- Input/Output
