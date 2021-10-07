@@ -1,7 +1,7 @@
 #include<iostream>
 using namespace std;
 
-class student
+class Student
 {
     public:
     string name;
@@ -17,7 +17,7 @@ class student
 };
 int main()
 {
-    student a; //object creation
+    Student a; //object creation
     //now get details with the help of object, remember one thing that object can call only those member of the class which are public
     cout<<"enter the name of student: ";
     cin>>a.name;
