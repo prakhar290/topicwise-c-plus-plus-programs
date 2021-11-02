@@ -1,4 +1,4 @@
-//to create linked list we have to create nodes and these nodes contains two part 1. data/value and 2. next pointer which points to the
+//To create linked list we have to create nodes and these nodes contains two part 1. data/value and 2. next pointer which points to the
 //address of next node and if next node is not present than it points to NULL 
 
 #include<iostream>
@@ -59,7 +59,7 @@ int main()
     insertattail(head,2);
     print(head);
     cout<<"another node inserted-\n";
-    insertattail(head,3);
+    insertattail(head,4);
     print(head);
     return 0;
 }
