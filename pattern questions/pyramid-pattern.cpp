@@ -1,5 +1,6 @@
 /* printing pyramid pattern: 
 if n = 5, pattern will be like:
+
                *
               ***
              *****
