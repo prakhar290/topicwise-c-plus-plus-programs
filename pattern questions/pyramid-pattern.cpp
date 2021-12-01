@@ -1,5 +1,5 @@
 /* printing pyramid pattern: 
-if n = 5, pattern will be like:
+if n = 5, Pattern will be like:
 
                *
               ***
