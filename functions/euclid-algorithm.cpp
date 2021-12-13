@@ -1,4 +1,4 @@
-//Euclid Algorithm is used to find the GCD/HCF of any two numbers, bys finding the remainder till we get 0 as remainder.
+//Euclid Algorithm is used to find the GCD/HCF of any two numbers, by finding the remainder till we get 0 as remainder.
 
 
 #include<iostream>
