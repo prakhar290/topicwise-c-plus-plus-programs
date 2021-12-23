@@ -3,6 +3,7 @@
 
 #include<iostream>
 using namespace std;
+
 int find_hcf(int a,int b)
 {
     int rem;
@@ -14,6 +15,7 @@ int find_hcf(int a,int b)
     }
     return a;
 }
+
 int main()
 {
     int num1,num2;
