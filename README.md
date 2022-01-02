@@ -9,3 +9,6 @@ you'll get programs accordingly to the topics as: *creating hello world program,
 - Printing *"Hello World"*
 - Using Variables
 - Input/Output
+- If-else Programs
+- Switch case Programs
+- Looping Programs
