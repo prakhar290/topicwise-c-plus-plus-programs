@@ -1,5 +1,5 @@
-/*Question- Put even nodes of the linked list after all the odd nodes. for example list = 1->2->3->4->5->6->NULL so the even nodes
-are 2,4,6 and odd nodes are 1,3,5 so the output list should be like 1->3->5->2->4->6->NULL*/
+/*Question- Put even nodes of the linked list after all the odd nodes. for example list = 1->2->3->4->5->6->NULL so the even nodes are 2,4,6 and odd nodes are 1,3,5 so the 
+output list should be like 1->3->5->2->4->6->NULL*/
 
 #include<iostream>
 using namespace std;
