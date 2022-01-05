@@ -12,3 +12,4 @@ you'll get programs accordingly to the topics as: *creating hello world program,
 - If-else Programs
 - Switch case Programs
 - Looping Programs
+- Pattern Questions
