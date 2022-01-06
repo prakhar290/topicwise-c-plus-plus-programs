@@ -1,4 +1,6 @@
 //Euclid Algorithm is used to find the GCD/HCF of any two numbers, bys finding the remainder till we get 0 as remainder.
+
+
 #include<iostream>
 using namespace std;
 int find_hcf(int a,int b)
