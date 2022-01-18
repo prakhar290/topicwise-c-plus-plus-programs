@@ -35,7 +35,6 @@ void insertattail(node * &head, int val)
     temp->next = n; 
 }
 
-//now a function to print our linked list
 void print(node *head)
 {
     node *temp = head;
