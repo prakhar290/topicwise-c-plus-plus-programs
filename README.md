@@ -15,3 +15,4 @@ you'll get programs accordingly to the topics as: *creating hello world program,
 - Pattern Questions
 - - 0-1 Pattern
 - - Butterfly Pattern
+- - Star Pattern
