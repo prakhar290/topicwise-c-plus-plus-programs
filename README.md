@@ -13,7 +13,7 @@ you'll get programs accordingly to the topics as: *creating hello world program,
 - Switch case Programs
 - Looping Programs
 - Pattern Questions
- - 0-1 Pattern
+  - 0-1 Pattern
 - - Butterfly Pattern
 - - Star Pattern
 - - Pyramid Pattern
