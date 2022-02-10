@@ -24,3 +24,4 @@ you'll get programs accordingly to the topics as: *creating hello world program,
 - Number system Conversion Programs 
 - Array Programs
 - 2D Array Programs
+- Character Array Programs
