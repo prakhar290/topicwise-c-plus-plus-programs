@@ -31,6 +31,19 @@ int main(){
         cout<<"the silly number is: "<<N;
         return 0;
     }
-    while(flag1!=true && flag2!=true)
+    while(flag1!=true){
+        --a;
+        flag1 = checkSillyNo(a);
+    }
+    while(flag2!=true){
+        ++b;
+        flag2 = checkSillyNo(b);
+    }
+    if(b-N>N-a){
+        cout<<"the silly number is: "<<a;
+    }
+    else{
+        cout<<"the silly number is: "<<b;
+    }
     return 0;
 }
