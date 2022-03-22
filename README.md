@@ -19,6 +19,7 @@ you'll get programs accordingly to the topics as: *creating hello world program,
   - Rhombus Pattern
   - Butterfly Pattern
   - Star Pattern
+  - Trapezium Pattern
 - Function Programs
 - Number system Conversion Programs 
 - Array Programs
