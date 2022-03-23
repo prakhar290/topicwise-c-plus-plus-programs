@@ -20,6 +20,7 @@ you'll get programs accordingly to the topics as: *creating hello world program,
   - Butterfly Pattern
   - Star Pattern
   - Trapezium Pattern
+  - ZigZag Pattern
 - Function Programs
 - Number system Conversion Programs 
 - Array Programs
