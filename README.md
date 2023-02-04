@@ -20,7 +20,7 @@ you'll get programs accordingly to the topics as: *creating hello world program,
   - Butterfly Pattern
   - Star Pattern
   - Trapezium Pattern
-  - Top-Right triangle Pattern
+  - Top-Right Triangle Pattern
   - ZigZag Pattern
 - Function Programs
 - Number system Conversion Programs 
